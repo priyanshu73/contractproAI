@@ -1,0 +1,608 @@
+[00:00:00.874] Server  LOG      ✓ Ready in 643ms
+[00:00:04.558] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.558] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:04.558] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600386998}
+[00:05:13.116] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:13.116] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:13.116] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763600695578}
+[00:07:06.746] Server  LOG      ✓ Compiled in 176ms
+[00:10:19.911] Server  LOG      ✓ Compiled in 107ms
+[00:10:47.268] Server  LOG      ✓ Compiled in 62ms
+[00:16:55.563] Server  LOG      ✓ Compiled in 160ms
+[00:17:08.894] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:08.894] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:08.895] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601411360}
+[00:21:40.273] Server  LOG      ✓ Compiled in 108ms
+[00:22:31.647] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:31.647] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:22:31.647] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763601734116}
+[00:26:10.634] Server  LOG      ✓ Compiled in 187ms
+[00:26:11.550] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:39.549] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:41.352] Server  ERROR    ⨯ ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+
+
+[00:39:41.472] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:41.900] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:41.900] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:42.354] Browser ERROR   uncaughtError: Error: ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+
+
+[00:39:42.502] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:42.618] Browser ERROR   ./components/features.tsx:1:17
+Ecmascript file had an error
+> 1 | import React, { useRef } from "react";
+    |                 ^^^^^^
+  2 | import { InvoicePreview } from "@/components/invoice-preview";
+  3 | import { AIConversationPreview } from "@/components/ai-conversation-preview";
+  4 | import { ProductRecommendations } from "@/components/product-recommendations";
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/features.tsx
+    ./app/page.tsx
+[00:39:59.477] Server  LOG      ✓ Compiled in 115ms
+[00:40:00.140] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:00.140] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:40:00.140] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763602782607}
+[00:42:32.812] Server  LOG      ✓ Compiled in 122ms
+[00:48:53.232] Server  LOG      ✓ Compiled in 156ms
+[00:51:11.133] Server  LOG      ✓ Compiled in 124ms
+[00:56:03.263] Server  LOG      ✓ Compiled in 110ms
+[00:59:07.798] Server  LOG      ✓ Compiled in 81ms
+[01:00:46.680] Server  LOG      ✓ Compiled in 291ms
+[01:07:22.137] Server  LOG      ✓ Compiled in 104ms
+[01:08:42.630] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:08:42.630] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:08:42.630] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763604505129}
+[01:09:27.220] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.223] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.248] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.250] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.252] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.253] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.263] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.264] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.265] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.265] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.266] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.267] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.268] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.268] Server  ERROR    ⨯ ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:09:27.275] Server  LOG      ✓ Compiled in 143ms
+[01:09:27.550] Browser ERROR   ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:09:42.725] Browser ERROR   ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:09:42.725] Browser ERROR   ./components/ui/hero-section-2.tsx:3:1
+Module not found: Can't resolve 'framer-motion'
+  1 | import React from 'react';
+  2 | import { cn } from "@/lib/utils";
+> 3 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | // Icon component for contact details
+  6 | const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:09:42.851] Server  LOG      ✓ Compiled in 427ms
+[01:09:43.141] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+[01:09:43.346] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:11:22.316] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+[01:11:22.468] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:11:53.113] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+[01:11:53.263] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:12:38.550] Browser ERROR   ./components/ui/hero-section-2.tsx:110:33
+Parsing ecmascript source code failed
+  108 |                         </div>
+  109 |                     )}
+> 110 |                 </motion.header>
+      |                                 ^
+> 111 |
+      | ^
+> 112 |         <m.main variants={containerVariants}>
+      | ^^^^^^^^^
+  113 |           <m.h1 className="text-4xl font-bold leading-tight text-foreground md:text-5xl" variants={itemVariants}>
+  114 |                         {title}
+  115 |                     </motion.h1>
+
+Expected '</', got 'jsx text (
+
+        )'
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+[01:12:40.551] Browser ERROR   ./components/ui/hero-section-2.tsx:110:33
+Parsing ecmascript source code failed
+  108 |                         </div>
+  109 |                     )}
+> 110 |                 </motion.header>
+      |                                 ^
+> 111 |
+      | ^
+> 112 |         <m.main variants={containerVariants}>
+      | ^^^^^^^^^
+  113 |           <m.h1 className="text-4xl font-bold leading-tight text-foreground md:text-5xl" variants={itemVariants}>
+  114 |                         {title}
+  115 |                     </motion.h1>
+
+Expected '</', got 'jsx text (
+
+        )'
+
+Import trace:
+  Server Component:
+    ./components/ui/hero-section-2.tsx
+    ./app/page.tsx
+[01:12:49.572] Server  ERROR    ⨯ TypeError: {imported module ./nodemodules/next/dist/server/route-modules/app-page/vendored/rsc/react.js}.createContext is not a function
+[01:12:49.740] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:13:05.786] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:13:05.976] Server  ERROR    ⨯ TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:13:06.267] Browser ERROR   uncaughtError: TypeError: createContext only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/context-in-server-component
+[01:13:28.330] Server  LOG      ✓ Compiled in 351ms
+[01:13:29.559] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:13:29.559] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:13:29.559] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763604791691}
+[01:16:36.039] Server  LOG      ✓ Compiled in 228ms
+[01:19:43.834] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:19:43.834] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:19:43.834] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763605166156}
+[01:20:19.390] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:19.390] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:20:19.390] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763605201735}
+[01:23:33.966] Server  LOG      ✓ Compiled in 220ms
+[01:24:00.472] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:24:00.472] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:24:00.472] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763605422963}
+[01:24:49.123] Server  LOG      ✓ Compiled in 78ms
+[01:26:43.034] Server  LOG      ✓ Compiled in 98ms
+[01:28:30.552] Server  LOG      ✓ Compiled in 108ms
+[01:29:06.936] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:29:06.936] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:29:06.936] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763605729301}
+[01:31:11.479] Server  LOG      ✓ Compiled in 189ms
+[01:33:36.773] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:33:36.774] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:33:36.776] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763605999100}
+[01:33:40.168] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:33:40.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:33:40.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763606002516}
+[01:38:26.822] Server  LOG      ✓ Compiled in 97ms
+[01:56:05.502] Server  LOG      ✓ Compiled in 72ms
+[01:56:27.978] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:56:27.978] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:56:27.978] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/#how-it-works color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/#how-it-works","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763607370375}
+[01:59:01.640] Server  LOG      ✓ Compiled in 212ms
+[01:59:15.093] Server  LOG      ✓ Compiled in 47ms
+[02:01:29.791] Server  LOG      ✓ Compiled in 71ms
+[02:05:33.288] Server  LOG      ✓ Compiled in 309ms
+[02:05:46.084] Server  LOG      ✓ Compiled in 104ms
