@@ -11,6 +11,12 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   icons: {
     icon: [
+      // Use `logo.png` as the primary favicon
+      {
+        url: '/logo.png',
+        type: 'image/png',
+      },
+      // keep existing small icon fallbacks for light/dark themes if present
       {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
